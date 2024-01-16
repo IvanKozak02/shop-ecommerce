@@ -1,0 +1,11 @@
+.purchased-items-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 30px;
+    place-content: center;
+}
+
+.purchased-items{
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,35 @@
+.checkout-container{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+
+.checkout-left img{
+    max-width: 250px;
+    max-height: 250px;
+    min-height: 240px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.item-counts button{
+    min-width: 30px;
+}
+
+.item-counts input{
+    max-width: 50px;
+}
+
+.item-counts{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.checkout-item{
+    width: 600px;
+}

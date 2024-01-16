@@ -1,0 +1,63 @@
+.navbar{
+    background-color: #242424;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar-title{
+    color: #fff;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+}
+.small-menu{
+    display: none;
+    position: relative;
+}
+
+.hidden-menu{
+    position: absolute;
+    right: 0;
+    background-color: #2d2d38;
+    min-width: 210px;
+    top: 65px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.hidden-menu-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: right;
+    gap: 15px;
+}
+
+.hidden-menu-container > a:last-child{
+    text-align: center;
+    font-size: 20px;
+}
+
+.available-money{
+    color: #fff;
+}
+
+@media screen and (max-width: 500px){
+    .navbar-links{
+        display: none;
+    }
+    .small-menu{
+        display: block;
+        padding-top: 5px;
+    }
+}

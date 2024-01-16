@@ -1,0 +1,24 @@
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 40px;
+    place-content: center;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.cards-grid{
+    padding: 20px;
+
+}
+
+.shop-title{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
